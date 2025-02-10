@@ -63,3 +63,7 @@ steps:
 Run sigma version
 1.0.5 (online pypi.org: 1.0.5)
 ```
+
+## Contributions
+
+![Alt](https://repobeats.axiom.co/api/embed/80e0354a2cfcf6c9bce51834148601f246d6a850.svg "Repobeats analytics image")
