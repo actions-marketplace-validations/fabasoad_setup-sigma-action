@@ -12,7 +12,7 @@ repos:
         language: node
         types: [text]
         args: []
-        files: ^(.*\.md|.*\.yaml|.*\.yml)$
+        files: ^.*\.(md|ya?ml)$
         # https://github.com/prettier/prettier/releases
         additional_dependencies: ["prettier@3.7.4"]
         stages: ["pre-commit"]
@@ -70,7 +70,7 @@ repos:
       - id: check-merge-conflict
         stages: ["pre-commit"]
       - id: check-json
-        stages: ["pre-push"]
+        stages: ["pre-commit"]
       - id: detect-private-key
       - id: end-of-file-fixer
       - id: mixed-line-ending
