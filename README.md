@@ -52,7 +52,7 @@ None.
 
 ```yaml
 steps:
-  - uses: actions/checkout@v6
+  - uses: actions/checkout@v7
   - uses: fabasoad/setup-sigma-action@v0
   - run: sigma version
 ```
